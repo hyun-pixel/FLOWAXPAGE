@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FLOWAX-PAGE — 직접 경험하는 홈페이지 제작</title>
+<meta name="description" content="FLOWAX-PAGE의 포트폴리오를 직접 체험하세요. 디자인과 움직임으로 완성하는 맞춤 웹사이트.">
+<meta name="theme-color" content="#ffffff"><meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="./assets/Cafe24Moyamoya-Regular-v1.0.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./styles.css">
+<script defer src="./vendor/gsap.min.js"></script><script defer src="./vendor/ScrollTrigger.min.js"></script>
+<script type="module" src="./app.js"></script>
+</head>
+<body class="home-page">
+<a class="skip-link" href="#work">본문으로 건너뛰기</a>
+<header class="site-header"><a class="brand" href="./" aria-label="FLOWAX-PAGE 처음으로"><span class="brand-wordmark">FLOWAX-PAGE</span></a></header>
+<button class="menu-edge" id="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="site-menu" aria-haspopup="dialog"><span class="menu-lines" aria-hidden="true"><i></i><i></i><i></i></span></button><dialog class="site-menu" id="site-menu" aria-labelledby="menu-title"><div class="menu-surface"><div class="menu-top"><p id="menu-title">FLOWAX-PAGE</p><button class="menu-close" id="menu-close" type="button" aria-label="메뉴 닫기"><span>닫기</span><span aria-hidden="true">×</span></button></div><nav class="menu-links" aria-label="주 메뉴"><a href="./#work" aria-current="page"><span class="menu-number">01</span><span class="menu-link-title">포트폴리오</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a><a href="./services.html"><span class="menu-number">02</span><span class="menu-link-title">제작 안내</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a><a href="./contact.html"><span class="menu-number">03</span><span class="menu-link-title">프로젝트 문의</span><span class="menu-link-arrow" aria-hidden="true">↗</span></a></nav></div></dialog>
+<main id="main-content" tabindex="-1">
+<section class="hero" id="top" aria-labelledby="hero-title">
+<div class="hero-stage">
+<div class="hero-art" aria-hidden="true">
+<svg class="studio-drawing" viewBox="115 105 875 460" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#141414" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+<defs><clipPath id="mobile-screen-clip"><rect x="478" y="170" width="152" height="268" rx="2"/></clipPath></defs>
+<!-- Original FLOWAX illustration: two makers build a page together. -->
+<path class="studio-ground" d="M157 538C244 535 279 542 334 538M755 539C828 535 899 542 949 538" stroke-width="1.8"/>
+<g class="maker maker-left">
+<g class="maker-left-body">
+<path d="M201 381C200 426 195 473 190 516L217 517L237 431L242 517L272 517L274 386Z" fill="#141414"/>
+<path d="M190 510L187 530L171 536C165 540 169 544 177 544L219 544L222 514Z" fill="white"/>
+<path d="M240 513L245 536L287 544C294 544 294 536 285 532L269 516Z" fill="white"/>
+<path d="M172 539H218M252 538L283 541" stroke-width="1.6"/>
+<path d="M213 278C186 279 174 302 168 338L175 389C204 405 251 407 279 389L272 321C265 292 249 281 235 278Z" fill="#141414"/>
+<path d="M203 282L218 324L231 299L245 320L254 291" stroke="white" stroke-width="2"/>
+<path d="M183 309C173 329 174 357 185 374L196 363L193 329" fill="white"/>
+<path d="M185 370L182 388C183 398 190 400 194 392L200 377L196 363" fill="white"/>
+<path d="M228 312L231 377M236 330H250" stroke="white" stroke-width="1.5"/>
+<circle cx="243" cy="357" r="2" fill="white" stroke="none"/>
+</g>
+<g class="maker-left-head">
+<path d="M218 259L215 284C224 295 239 295 243 283L237 258" fill="white"/>
+<path d="M203 214C204 196 249 191 257 218L255 235L267 246L256 251C253 269 237 277 222 267C210 261 202 244 203 214Z" fill="white"/>
+<path d="M201 235C185 228 189 206 199 202C194 188 210 177 221 186C231 170 248 184 250 189C268 185 277 200 264 211C253 214 228 209 218 207L214 233L207 226Z" fill="#141414"/>
+<path d="M211 235C202 224 197 238 208 244" fill="white"/>
+<path class="maker-eye" d="M246 227L248 229" stroke-width="4"/>
+<path d="M250 255Q243 259 239 254" stroke-width="1.8"/>
+</g>
+<g class="maker-left-arm">
+<path d="M257 302C278 303 294 290 309 274L329 286C314 316 294 335 270 335Z" fill="white"/>
+<path d="M261 302L272 334M310 275L327 285" stroke-width="1.6"/>
+<path d="M309 275L319 256L333 249L341 229C344 221 350 224 348 232L344 248L351 243C357 240 359 244 355 249L350 253C359 247 362 253 357 257L352 262C359 260 360 266 354 270L339 281L329 286Z" fill="white"/>
+</g>
+</g>
+<g class="page-float">
+<g class="page-window">
+<rect x="347" y="147" width="414" height="310" rx="12" fill="white" stroke-width="3"/>
+<path d="M348 184H759" stroke-width="2"/>
+<circle cx="367" cy="166" r="3.5" fill="#141414" stroke="none"/>
+<circle cx="381" cy="166" r="3.5" fill="#141414" stroke="none"/>
+<circle cx="395" cy="166" r="3.5" fill="#141414" stroke="none"/>
+<path d="M700 163H738M711 169H738" stroke-width="1.4"/>
+<g class="page-type">
+<text x="378" y="247" fill="#141414" stroke="none" font-family="Cafe24Moyamoya,sans-serif" font-size="35">YOUR</text>
+<text x="378" y="286" fill="#141414" stroke="none" font-family="Cafe24Moyamoya,sans-serif" font-size="35">PAGE.</text>
+<path d="M381 315H493M381 326H466" stroke-width="2"/>
+</g>
+<g class="page-picture">
+<path d="M532 216H730V370H532Z" fill="#f2f2f0" stroke-width="2"/>
+<path class="picture-mountains" d="M533 339L583 289L621 319L667 261L729 330V369H533Z" fill="#141414" stroke="none"/>
+<circle class="picture-sun" cx="574" cy="253" r="17" fill="white" stroke-width="2"/>
+<path d="M630 288L652 303" stroke="white" stroke-width="1.5"/>
+</g>
+<g class="page-button">
+<rect x="378" y="350" width="109" height="29" rx="15" fill="#141414" stroke="none"/>
+<path d="M396 364H457M452 360L457 364L452 368" stroke="white" stroke-width="1.5"/>
+</g>
+<g class="page-footer">
+<path d="M379 407H729" stroke="#bbbdb7" stroke-width="1"/>
+<path d="M380 426H427M516 426H562M679 426H729" stroke-width="2"/>
+</g>
+<g class="page-interaction" opacity="0">
+<rect x="397" y="205" width="314" height="190" rx="9" fill="white" stroke-width="2.5"/>
+<path d="M416 226H443M682 221L692 231M692 221L682 231" stroke-width="1.8"/>
+<text x="554" y="295" text-anchor="middle" fill="#141414" stroke="none" font-family="Cafe24Moyamoya,sans-serif" font-size="51">HELLO.</text>
+<path d="M477 316H630M499 327H608" stroke="#8c8d87" stroke-width="1.5"/>
+<rect x="507" y="349" width="94" height="24" rx="12" fill="#141414" stroke="none"/>
+<path d="M539 361H570M565 357L570 361L565 365" stroke="white" stroke-width="1.5"/>
+</g>
+<g class="page-selection" opacity="0" stroke-width="1.2">
+<path d="M524 208H738V378H524Z" stroke-dasharray="4 5"/>
+<path d="M520 204H528V212H520ZM734 204H742V212H734ZM520 374H528V382H520ZM734 374H742V382H734Z" fill="white"/>
+</g>
+</g>
+<g class="page-mobile" opacity="0">
+<rect x="464" y="133" width="180" height="337" rx="25" fill="white" stroke-width="3"/>
+<path d="M524 148H584" stroke-width="4"/>
+<g clip-path="url(#mobile-screen-clip)">
+<g class="mobile-scroll">
+<text x="484" y="200" fill="#141414" stroke="none" font-family="Cafe24Moyamoya,sans-serif" font-size="24">YOUR PAGE.</text>
+<path d="M484 216H605M484 225H570" stroke-width="1.5"/>
+<g class="mobile-picture">
+<path d="M482 244H626V352H482Z" fill="#f2f2f0" stroke-width="1.4"/>
+<circle cx="510" cy="271" r="11" fill="white" stroke-width="1.4"/>
+<path d="M483 329L520 294L550 317L582 275L625 324V351H483Z" fill="#141414" stroke="none"/>
+</g>
+<rect x="483" y="369" width="143" height="23" rx="12" fill="#141414" stroke="none"/>
+<path d="M537 380H573M568 376L573 380L568 384" stroke="white" stroke-width="1.3"/>
+<path d="M484 414H624M484 425H594" stroke="#a3a59c" stroke-width="1.4"/>
+<rect x="483" y="445" width="62" height="48" fill="#141414" stroke="none"/>
+<rect x="563" y="445" width="62" height="48" fill="#e8e8e3" stroke="none"/>
+</g>
+</g>
+<path d="M531 454H577" stroke-width="3"/>
+<g class="mobile-touch" opacity="0"><circle cx="606" cy="354" r="12" fill="white" stroke-width="1.5"/><circle cx="606" cy="354" r="4" fill="#141414" stroke="none"/></g>
+</g>
+<g class="page-cursor" opacity="0">
+<path d="M692 351L697 385L706 375L716 391L724 386L715 371L729 369Z" fill="white" stroke-width="2.5"/>
+</g>
+<circle class="click-ripple" cx="700" cy="353" r="15" stroke-width="2" opacity="0"/>
+</g>
+<g class="maker maker-right">
+<g class="maker-right-body">
+<path d="M820 385L827 512H851L861 435L876 513L903 513L896 382Z" fill="#141414"/>
+<path d="M827 507L824 526L803 536C797 541 805 545 813 543L854 537L852 509Z" fill="white"/>
+<path d="M876 508L878 538H923C931 537 928 531 920 529L901 512Z" fill="white"/>
+<path d="M809 539L850 533M884 534H920" stroke-width="1.6"/>
+<path d="M844 273C819 278 810 297 806 324L818 409C842 419 887 417 906 406L913 328C906 301 885 282 873 278Z" fill="white"/>
+<path d="M850 280L838 336L854 324L863 350L876 283" fill="#141414"/>
+<path d="M863 348L867 407M823 375L843 378M881 377L897 374" stroke-width="1.8"/>
+<circle cx="874" cy="374" r="2" fill="#141414" stroke="none"/>
+<path d="M896 299C920 314 932 343 933 372L920 378L900 340" fill="white"/>
+<path d="M920 374L914 392C912 402 919 405 924 396L928 389L928 398C931 400 935 389 934 381L933 372" fill="white"/>
+</g>
+<g class="maker-right-head">
+<path d="M851 257L844 282C853 297 869 298 875 285L868 261" fill="white"/>
+<path d="M875 196C850 185 828 204 833 229L824 242L835 248C837 266 851 275 866 265C884 254 896 216 875 196Z" fill="white"/>
+<path d="M832 225C827 205 835 187 851 185C871 172 898 192 897 212C909 225 902 245 884 252L879 227L870 212C860 219 845 220 833 217Z" fill="#141414"/>
+<path d="M879 232C889 222 893 237 882 242" fill="white"/>
+<path class="maker-eye" d="M843 230L845 228" stroke-width="4"/>
+<path d="M838 254Q845 260 850 254" stroke-width="1.8"/>
+<path d="M879 250L894 261" stroke-width="2"/>
+</g>
+<g class="maker-right-arm">
+<path d="M824 298C806 305 786 300 772 289L758 312C780 335 804 343 828 329Z" fill="white"/>
+<path d="M773 290L760 311M816 302L825 330" stroke-width="1.8"/>
+<path d="M773 291L761 278L749 275L740 258C736 252 731 255 734 262L741 278L728 273C722 271 719 276 726 280L734 284L724 282C717 281 715 286 723 289L735 293L726 292C720 292 720 298 729 301L743 305L758 312Z" fill="white"/>
+</g>
+</g>
+<g class="studio-notes" opacity="0" stroke-width="1.6">
+<g class="note-type"><rect x="359" y="104" width="63" height="42" fill="white"/><text x="372" y="134" font-family="Cafe24Moyamoya,sans-serif" font-size="25" fill="#141414" stroke="none">Aa</text></g>
+<g class="note-image"><rect x="694" y="112" width="53" height="43" fill="white"/><path d="M701 145L712 131L723 139L735 124L741 145Z" fill="#141414" stroke="none"/></g>
+</g>
+<g class="studio-confetti" fill="#141414" stroke="none">
+<path class="paper-piece" d="M384 129L394 123L400 135L390 141Z" opacity="0"/>
+<path class="paper-piece" d="M476 111L482 102L491 109L485 118Z" opacity="0"/>
+<path class="paper-piece" d="M638 110L645 103L653 113L645 121Z" opacity="0"/>
+<path class="paper-piece" d="M722 124L731 130L725 141L716 135Z" opacity="0"/>
+</g>
+<g class="studio-sparkles" stroke-width="2">
+<path class="spark" d="M543 118V106M527 125L519 118M559 125L567 118"/>
+<path class="spark" d="M793 173L805 162M801 188L817 184"/>
+<path class="spark" d="M318 417L306 423M316 402L301 400"/>
+</g>
+</svg>
+</div>
+<div class="hero-lead">
+<p class="hero-kicker" aria-hidden="true">당신의 생각을,</p>
+<h1 id="hero-title"><span class="sr-only">당신의 생각을 웹사이트로 만듭니다.</span><span class="hero-title-word" aria-hidden="true">웹사이트로.</span></h1>
+</div>
+
+</div>
+</section>
+<section class="work section-wrap" id="work" aria-labelledby="work-title">
+<div class="section-intro"><p class="eyebrow">PORTFOLIO <span id="project-total">07</span></p><h2 id="work-title"><span>마음에 드는 화면을</span> <span>직접 경험해보세요.</span></h2></div>
+<div class="project-grid" id="project-grid" aria-live="polite"></div>
+<div class="more-wrap"><button class="text-button" id="load-more" hidden>포트폴리오 더 보기 <span aria-hidden="true">+</span></button></div>
+<noscript><p>작품을 선택하면 새 탭에서 데모가 열립니다.</p><ul><li><a href="https://homepagehospital.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX 피부과 데모 보기</a></li><li><a href="https://homepagebrand.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX WATCHBOX 데모 보기</a></li><li><a href="https://homepagehotel.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX 제주 펜션 데모 보기</a></li><li><a href="https://homepagelab-three.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX SPACE 데모 보기</a></li><li><a href="https://flowaxtravel.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX TRAVEL 데모 보기</a></li><li><a href="https://homepagetatto.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX TATTOO 데모 보기</a></li><li><a href="https://homepagerent.vercel.app/" target="_blank" rel="noopener noreferrer">FLOWAX 렌트카 데모 보기</a></li></ul></noscript>
+</section>
+</main>
+<dialog class="demo-dialog" id="demo-dialog" aria-labelledby="demo-name">
+<div class="demo-shell"><header class="demo-toolbar"><div class="demo-heading"><span>포트폴리오 데모</span><h2 id="demo-name"></h2></div><div class="demo-actions"><a id="demo-external" target="_blank" rel="noopener noreferrer">새 탭에서 보기 <span aria-hidden="true">↗</span></a><button id="demo-inquiry">이 작품으로 문의</button><button class="close-demo" id="demo-close" aria-label="데모 닫기"><span aria-hidden="true">×</span></button></div></header>
+<div class="demo-body" id="demo-body"><div class="demo-loading" id="demo-loading"><span class="loader-ring" aria-hidden="true"></span><p>데모를 열고 있습니다.</p><span>표시가 어려우면 상단의 ‘새 탭에서 보기’를 이용해주세요.</span></div></div></div>
+</dialog>
+</body></html>
