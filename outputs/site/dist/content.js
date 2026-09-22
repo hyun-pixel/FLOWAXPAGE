@@ -2,7 +2,7 @@
 export const site = {
  name: 'FLOWAX-PAGE',
  prices: { reference: 500000, custom: 1500000 },
- contacts: { kakao: '', email: 'mnwlsgus1005@gmail.com', phone: '010-5768-1840' },
+ contacts: { kakao: 'https://open.kakao.com/o/s4X6DmOi', email: 'mnwlsgus1005@gmail.com', phone: '010-5768-1840' },
  pagination: { initial: 7, step: 6 },
  projects: [
   {
