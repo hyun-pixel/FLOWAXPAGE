@@ -1,0 +1,5 @@
+# Page-level noindex remains active until public launch.
+User-agent: *
+Allow: /
+
+Sitemap: https://flowaxpage.com/sitemap.xml

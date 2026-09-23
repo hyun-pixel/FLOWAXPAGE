@@ -381,6 +381,7 @@ html:has(.services-page),.services-page{background:#fff}
 .pricing-amount .price{display:flex;align-items:baseline;gap:8px;margin:0;color:var(--ink)}
 .pricing-amount .price strong{font-size:44px;font-weight:400;line-height:1.4;letter-spacing:0}
 .pricing-amount .price>span{font-size:18px;font-weight:400}
+.pricing-tax{margin-top:8px;font-size:15px;line-height:1.5;color:#5c5e58}
 .pricing-reading{grid-column:1;min-width:0;line-height:1.65}
 .pricing-overview{font-size:16px;line-height:1.65;margin-top:16px}
 .pricing-overview p+p{margin-top:8px}
