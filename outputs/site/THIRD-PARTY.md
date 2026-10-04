@@ -7,9 +7,9 @@
 
 - Cafe24Moyamoya Regular v1.0 — original WOFF2 supplied through the user's local font folder. License: dist/assets/License-Moyamoya.pdf. Source and terms: https://help.cafe24.com/faq/web-hosting/introduce/new-renewal-change/cafe24_free_fonts_usage/
 
-## Portfolio covers v0.8
+## Portfolio covers
 
-The 14 WebP files in dist/assets/portfolio/ are desktop and small-screen screenshots of the demos supplied by the user, selected to represent each site. No stock thumbnails or invented client work were added.
+The 22 WebP files in dist/assets/portfolio/ are desktop and small-screen screenshots of the demos supplied by the user, selected to represent each site. No stock thumbnails or invented client work were added.
 
 - hospital.webp / hospital-small.webp — FLOWAX 피부과 — https://homepagehospital.vercel.app/
 - watch.webp / watch-small.webp — FLOWAX WATCHBOX — https://homepagebrand.vercel.app/
@@ -18,3 +18,7 @@ The 14 WebP files in dist/assets/portfolio/ are desktop and small-screen screens
 - travel.webp / travel-small.webp — FLOWAX TRAVEL — https://flowaxtravel.vercel.app/
 - tattoo.webp / tattoo-small.webp — FLOWAX TATTOO — https://homepagetatto.vercel.app/
 - rent.webp / rent-small.webp — FLOWAX 렌트카 — https://homepagerent.vercel.app/
+- interior.webp / interior-small.webp — LT 인테리어 — https://homepageinterior.vercel.app/ — captured 2026-09-30
+- academy.webp / academy-small.webp — 제일종합학원 — https://homepage-academy.vercel.app/ — captured 2026-10-04 after closing the demo notice popup
+- dressup.webp / dressup-small.webp — 드레스업 — https://homepagedressup.vercel.app/ — captured 2026-10-04 at the completed-room scene of the scroll animation
+- hair.webp / hair-small.webp — BAEUM 바음헤어 — https://homepagehair.vercel.app/ — captured 2026-10-04
