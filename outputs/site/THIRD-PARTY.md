@@ -11,14 +11,14 @@
 
 The 22 WebP files in dist/assets/portfolio/ are desktop and small-screen screenshots of the demos supplied by the user, selected to represent each site. No stock thumbnails or invented client work were added.
 
-- hospital.webp / hospital-small.webp — FLOWAX 피부과 — https://homepagehospital.vercel.app/
+- hospital.webp / hospital-small.webp — 라인 피부과 — https://homepagehospital.vercel.app/ — refreshed 2026-10-06 from the current hero
 - watch.webp / watch-small.webp — FLOWAX WATCHBOX — https://homepagebrand.vercel.app/
-- stay.webp / stay-small.webp — FLOWAX 제주 펜션 — https://homepagehotel.vercel.app/
-- space.webp / space-small.webp — FLOWAX SPACE — https://homepagelab-three.vercel.app/
-- travel.webp / travel-small.webp — FLOWAX TRAVEL — https://flowaxtravel.vercel.app/
-- tattoo.webp / tattoo-small.webp — FLOWAX TATTOO — https://homepagetatto.vercel.app/
-- rent.webp / rent-small.webp — FLOWAX 렌트카 — https://homepagerent.vercel.app/
-- interior.webp / interior-small.webp — LT 인테리어 — https://homepageinterior.vercel.app/ — captured 2026-09-30
+- stay.webp / stay-small.webp — 성산동백 — https://homepagehotel.vercel.app/ — refreshed 2026-10-06 from the current hero
+- space.webp / space-small.webp — 바인스페이스 — https://homepagelab-three.vercel.app/ — refreshed 2026-10-06 from the current hero
+- travel.webp / travel-small.webp — 트립마운트 — https://flowaxtravel.vercel.app/ — refreshed 2026-10-06 from the current hero
+- tattoo.webp / tattoo-small.webp — 도원타투 — https://homepagetatto.vercel.app/ — refreshed 2026-10-06 from the current hero
+- rent.webp / rent-small.webp — JOJ렌트 — https://homepagerent.vercel.app/ — refreshed 2026-10-06 from the current hero
+- interior.webp / interior-small.webp — LT 인테리어 — https://homepageinterior.vercel.app/ — refreshed 2026-10-06 with the updated lower-left kitchen video (videos/oak-light-kitchen.mp4)
 - academy.webp / academy-small.webp — 제일종합학원 — https://homepage-academy.vercel.app/ — captured 2026-10-04 after closing the demo notice popup
 - dressup.webp / dressup-small.webp — 드레스업 — https://homepagedressup.vercel.app/ — captured 2026-10-04 at the completed-room scene of the scroll animation
 - hair.webp / hair-small.webp — BAEUM 바음헤어 — https://homepagehair.vercel.app/ — captured 2026-10-04

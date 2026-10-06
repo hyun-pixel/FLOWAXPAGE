@@ -55,7 +55,7 @@ function renderProjects() {
   const next = Math.min(shown + (shown ? site.pagination.step : site.pagination.initial), validProjects.length);
   let firstNewButton;
   for (const [index, project] of validProjects.slice(shown, next).entries()) {
-    const card = element('article', 'project-card' + (project.featured ? ' is-featured' : ''));
+    const card = element('article', 'project-card');
     card.dataset.project = project.id;
     const button = element('a', 'project-open');
     button.href = project.url;
@@ -71,9 +71,7 @@ function renderProjects() {
     cover.height = project.coverHeight || 1000;
     if (project.coverSmall) {
       cover.srcset = project.coverSmall + ' 800w, ' + project.cover + ' ' + cover.width + 'w';
-      cover.sizes = project.featured
-        ? '(max-width: 700px) calc(100vw - 66px), (min-width: 1972px) 1800px, calc(98vw - 86px)'
-        : '(max-width: 700px) calc(100vw - 66px), (max-width: 1100px) calc((98vw - 118px) / 2), (min-width: 1972px) 876px, calc((98vw - 134px) / 2)';
+      cover.sizes = '(max-width: 700px) calc((100vw - 72px) / 2), (max-width: 1023px) calc((98vw - 110px) / 2), (max-width: 1100px) calc((98vw - 134px) / 3), (min-width: 1972px) 579px, calc((98vw - 150px) / 3)';
     }
     cover.loading = 'lazy'; cover.decoding = 'async';
     visual.append(cover);

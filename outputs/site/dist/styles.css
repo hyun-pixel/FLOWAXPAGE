@@ -257,7 +257,7 @@ body.modal-open .site-cursor,body.menu-open .site-cursor{opacity:0}
 @media(prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.site-cursor{display:none!important}}
 
 
-/* Portfolio: two paired rows around a wide architectural image. */
+/* Portfolio: three columns on desktop, two on smaller screens. */
 html:has(.home-page),.home-page{background:#fff}
 .work{position:relative;background:#fff;padding-top:96px;--work-gutter:max(clamp(20px,2.2vw,40px),calc((100vw - 1800px)/2));padding-left:var(--work-gutter);padding-right:max(var(--work-gutter),86px)}
 .work .section-intro{display:block;text-align:center;margin-bottom:104px}
@@ -265,12 +265,10 @@ html:has(.home-page),.home-page{background:#fff}
 #project-total{font-size:12px;letter-spacing:0;color:#6b6b65;font-variant-numeric:tabular-nums}
 .work .section-intro h2{font-size:clamp(40px,3.9vw,68px);line-height:1.35;letter-spacing:0}
 .work .section-intro h2 span{white-space:nowrap}
-.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:80px 48px}
+.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:64px 32px}
 .project-card{min-width:0}
-.project-card.is-featured{grid-column:1/-1}
 .project-open{display:block;width:100%;padding:0;text-align:left;touch-action:manipulation}
 .project-visual{position:relative;display:block;aspect-ratio:3/2;overflow:hidden;background:#f3f3f1}
-.is-featured .project-visual{aspect-ratio:80/41}
 .project-cover{width:100%;height:100%;object-fit:cover;transition:transform .55s var(--ease);will-change:auto}
 .project-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .2s}
 .is-playing .project-video{opacity:1}
@@ -278,28 +276,30 @@ html:has(.home-page),.home-page{background:#fff}
 .project-meta{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;align-items:center;margin-top:20px}
 .project-category{display:flex;align-items:center;gap:12px;min-width:0;font-size:13px;line-height:1.5;color:#62625e}
 .project-index{color:#757570;font-size:12px;font-variant-numeric:tabular-nums}
-.project-name{grid-column:1/-1;font-family:Cafe24Moyamoya,Pretendard,sans-serif;font-size:clamp(22px,2vw,30px);font-weight:400;line-height:1.3;letter-spacing:0;margin-top:2px}
-.project-desc{grid-column:1/-1;font-size:15px;line-height:1.7;color:#62625e}
+.project-name{grid-column:1/-1;font-family:Cafe24Moyamoya,Pretendard,sans-serif;font-size:clamp(20px,1.7vw,27px);font-weight:400;line-height:1.3;letter-spacing:0;margin-top:2px;word-break:keep-all;overflow-wrap:anywhere}
+.project-desc{grid-column:1/-1;font-size:15px;line-height:1.65;color:#62625e;word-break:keep-all;overflow-wrap:anywhere}
 .project-price{font-size:14px;margin-top:12px}
 @media(max-width:1100px){
  .work{padding-top:88px}
- .project-grid{gap:64px 32px}
+ .project-grid{gap:48px 24px}
  .work .section-intro{margin-bottom:88px}
  .work .section-intro h2 span{display:block}
 }
+@media(max-width:1023px){
+ .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
 @media(max-width:700px){
- .work{padding:72px 48px 80px 18px}
+ .work{padding:72px 44px 80px 16px}
  .work .section-intro{margin-bottom:72px}
  .work .section-intro .eyebrow{margin-bottom:20px;font-size:11px}
  .work .section-intro h2{font-size:clamp(26px,7.4vw,34px);line-height:1.4}
- .project-grid{grid-template-columns:minmax(0,1fr);gap:48px}
- .project-card.is-featured{grid-column:auto}
- .project-meta{margin-top:16px;gap:8px}
- .project-category{font-size:12px}
- .project-category{gap:8px}
+ .project-grid{gap:32px 12px}
+ .project-meta{margin-top:12px;gap:6px}
+ .project-category{align-items:flex-start;font-size:11px;line-height:1.5;gap:6px}
+ .project-category>span:last-child{min-width:0;word-break:keep-all}
  .project-index{font-size:11px}
- .project-name{font-size:clamp(21px,5.8vw,26px);line-height:1.35}
- .project-desc{font-size:14px;line-height:1.7}
+ .project-name{font-size:clamp(16px,4.4vw,20px);line-height:1.4}
+ .project-desc{font-size:14px;line-height:1.55}
 }
 @media(hover:none){.project-open:hover .project-cover{transform:none}}
 @media(prefers-reduced-motion:reduce){.project-open:hover .project-cover,.project-open:focus-visible .project-cover{transform:none}}
